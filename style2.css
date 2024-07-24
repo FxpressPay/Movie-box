@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    font-family: poppins;
+  }
+  body {
+    overflow: hidden;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .container{
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .left_container{
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid gray;
+    border-radius: 0px 50px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  .inner_header1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 12px;
+  }
+
+  img{
+    width: 16%;
+    height: 40%;
+    margin-top: 20px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Poppins;
+    margin-top: 22px;
+    margin-left: 10px;
+    color: black;
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+}
+
+.second_section{
+    display: block;
+    /* padding-left: 32px; */
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Poppins;
+
+    div{
+        margin-top: 35px;
+        font-family: Poppins;
+        padding-left: 32px;
+        
+    }   
+}
+.home_url a{
+    color: black;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.second_section :nth-last-of-type(3){
+    background-color: #BE123C1A;
+    color: #BE123C;
+    border-right: 5px solid #BE123C;
+    padding: 15px;
+    padding-left: 32px;
+}
+
+.second_section div:hover{
+    background-color: #BE123C1A;
+    color: #BE123C;
+    /* border-right: 5px solid #BE123C; */
+    padding: 15px;
+    padding-left: 32px;
+}
+
+.ads{
+    width: 80%;
+    height: 270px;
+    background-color: #F8E7EB66;
+    border: 2px solid #BE123CB2;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 70px;
+
+
+    .first_text{
+        width: 90%;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 20px;
+        color: #333333;
+        padding-top: 20px;
+        padding-left: 15px;
+    }
+
+    .second_text{
+        width: 70%;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        color: #666666;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .start_play{
+        width: 70%;
+        height: 40px;
+        margin-top: 25px;
+        padding-top: 5px;
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+        background-color: #BE123C33;
+        border-radius: 20px;
+        margin-left: 15px;
+        color: #BE123C;
+    }
+
+}
+
+.log{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    button{
+        border: none;
+        font-size: 22px;
+        font-weight: 600;
+        font-family: poppins;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+}
+
+.right_container{
+width: 80%;
+height: auto;
+background-color: aliceblue;
+overflow: hidden;
+overflow-y: auto;
+box-sizing: border-box;
+
+
+.movie_frame{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    /* background-color: #BE123C; */
+
+    .movie_loader{
+        
+
+        img{
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 30%;
+        }
+    }
+    
+    iframe{
+        width: 1000px;
+        height: 450px;
+        position: relative;
+    }
+}
+
+.movie_details{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    background-color: #66666600;
+    display: flex;
+}
+}
+
+.desc_section{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+
+    .movie_name{
+        width: 91.7%;
+        height: 60px;
+        background-color: #be123d00;
+        display: flex;
+        float: right;
+        font-family: Poppins;
+
+        #movieName{
+            width: fit-content;
+            height: 100%;
+            background-color: #66666600;
+            font-weight: 600;
+            font-size: 25px;
+            padding-top: 10px;
+            font-family: Poppins;
+        }
+
+        .action{
+            color: #BE123C;
+            width: fit-content;
+            height: 35px;
+            border-radius: 20px;
+            border: 1px solid #BE123C;
+            padding: 1px 15px;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-family: Poppins;
+        }
+
+        .thriller{
+            color: #BE123C;
+            width: fit-content;
+            height: 35px;
+            border-radius: 20px;
+            border: 1px solid #BE123C;
+            padding: 1px 15px;
+            text-align: center;
+            font-size: 20px;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-family: Poppins;
+        }
+    }
+
+    .description{
+        width: 91.7%;
+        height: 250px;
+        background-color: #be123d00;
+        float: right;
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 10px;
+
+        div{
+            margin-top: 15px;
+            font-family: Poppins;
+        }
+    }
+}
+
+.rating_section{
+    width: 40%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 1px solid grey;
+
+    .rating{
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0);
+
+        .votes{
+            width: 80%;
+            height: 30px;
+            display: flex;
+            background-color: #be123d00;
+            margin-left: 10px;
+            border-radius: 10px;
+            color: #333333;
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            /* border: 1px solid #BE123C; */
+
+            .star_rating{
+                width: 70%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0);
+                color: #BE123C;
+                font-weight: 700;
+                padding-left: 50%;
+                font-family: Poppins;
+
+                .fa-star{
+                    color: goldenrod;
+                }
+            }
+
+            .vote{
+                width: 30%;
+                height: 100%;
+                background-color: rgba(255, 255, 255, 0);
+                border-left: 2px solid grey;
+                color: #BE123C;
+                font-weight: 700;
+                font-family: Poppins;
+            }
+        }
+
+        .showtimes{
+            width: 77%;
+            height: 55px;
+            background-color: #BE123C;
+            margin-left: 10px;
+            border-radius: 10px;
+            color: white;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        .fa-eye{
+            font-size: 18px;
+        }
+
+        .More_watch{
+            width: 77%;
+            height: 55px;
+            background-color: #BE123C1A;
+            margin-left: 10px;
+            border-radius: 10px;
+            color: #333333;
+            font-family: Poppins;
+            font-size: 19px;
+            font-weight: 500;
+            text-align: center;
+            border: 1px solid #BE123C;
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.timing{
+    width: 77%;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Poppins;
+    font-size: 17px;
+    line-height: 25px;
+
+    div{
+        margin-top: 10px;
+        font-family: Poppins;
+    }
+}
